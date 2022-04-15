@@ -40,6 +40,7 @@ LICENSE
   s.author                = { 'UIUX Dev Team' => 'tuandv8@gmail.com' }
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '9.0'
+  s.source           = { :git => 'https://github.com/leonacky/ekyc-ios', :tag => s.version.to_s }
 
   s.subspec 'camera' do |cs|
     cs.author                = { 'UIUX Dev Team' => 'tuandv8@gmail.com' }
