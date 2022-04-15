@@ -42,4 +42,13 @@ LICENSE
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '9.0'
   s.vendored_frameworks   = 'camera.xcframework'
+
+  s.subspec 'webview_flutter_wkwebview' do |ws|
+    ws.author                = { 'UIUX Dev Team' => 'tuandv8@gmail.com' }
+    ws.source                = { :http => 'https://github.com/leonacky/ekyc-ios/raw/main/webview_flutter_wkwebview.zip' }
+    ws.documentation_url     = 'https://flutter.dev/docs'
+    ws.platform              = :ios, '9.0'
+    ws.vendored_frameworks   = 'webview_flutter_wkwebview.xcframework'
+  end
+  
 end
