@@ -38,22 +38,16 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 LICENSE
   }
   s.author                = { 'UIUX Dev Team' => 'tuandv8@gmail.com' }
+  s.source                = { :http => 'https://github.com/leonacky/ekyc-ios/raw/main/ekyc_sdk.zip' }
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '9.0'
-  s.source           = { :git => 'https://github.com/leonacky/ekyc-ios', :tag => s.version.to_s }
 
   s.subspec 'camera' do |cs|
-    cs.author                = { 'UIUX Dev Team' => 'tuandv8@gmail.com' }
-    cs.source                = { :http => 'https://github.com/leonacky/ekyc-ios/raw/main/camera.zip' }
-    cs.documentation_url     = 'https://flutter.dev/docs'
     cs.platform              = :ios, '9.0'
     cs.vendored_frameworks   = 'camera.xcframework'
   end
 
   s.subspec 'webview_flutter_wkwebview' do |ws|
-    ws.author                = { 'UIUX Dev Team' => 'tuandv8@gmail.com' }
-    ws.source                = { :http => 'https://github.com/leonacky/ekyc-ios/raw/main/webview_flutter_wkwebview.zip' }
-    ws.documentation_url     = 'https://flutter.dev/docs'
     ws.platform              = :ios, '9.0'
     ws.vendored_frameworks   = 'webview_flutter_wkwebview.xcframework'
   end
