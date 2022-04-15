@@ -42,9 +42,64 @@ LICENSE
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '9.0'
 
+  s.subspec 'App' do |as|
+    as.platform              = :ios, '9.0'
+    as.vendored_frameworks   = 'App.xcframework'
+  end
+
   s.subspec 'camera' do |cs|
     cs.platform              = :ios, '9.0'
     cs.vendored_frameworks   = 'camera.xcframework'
+  end
+
+  s.subspec 'device_info_plus' do |ds|
+    ds.platform              = :ios, '9.0'
+    ds.vendored_frameworks   = 'device_info_plus.xcframework'
+  end
+
+  s.subspec 'ekyc_flutter_sdk' do |es|
+    es.platform              = :ios, '9.0'
+    es.vendored_frameworks   = 'ekyc_flutter_sdk.xcframework'
+  end
+
+  s.subspec 'FlutterPluginRegistrant' do |fs|
+    fs.platform              = :ios, '9.0'
+    fs.vendored_frameworks   = 'FlutterPluginRegistrant.xcframework'
+  end
+
+  s.subspec 'fluttertoast' do |ts|
+    ts.platform              = :ios, '9.0'
+    ts.vendored_frameworks   = 'fluttertoast.xcframework'
+  end
+
+  s.subspec 'path_provider_ios' do |ps|
+    ps.platform              = :ios, '9.0'
+    ps.vendored_frameworks   = 'path_provider_ios.xcframework'
+  end
+
+  s.subspec 'shared_preferences_ios' do |ss|
+    ss.platform              = :ios, '9.0'
+    ss.vendored_frameworks   = 'shared_preferences_ios.xcframework'
+  end
+
+  s.subspec 'tflite_flutter' do |ls|
+    ls.platform              = :ios, '9.0'
+    ls.vendored_frameworks   = 'tflite_flutter.xcframework'
+  end
+
+  s.subspec 'Toast' do |tts|
+    tts.platform              = :ios, '9.0'
+    tts.vendored_frameworks   = 'Toast.xcframework'
+  end
+
+  s.subspec 'url_launcher_ios' do |us|
+    us.platform              = :ios, '9.0'
+    us.vendored_frameworks   = 'url_launcher_ios.xcframework'
+  end
+
+  s.subspec 'video_player_avfoundation' do |vs|
+    vs.platform              = :ios, '9.0'
+    vs.vendored_frameworks   = 'video_player_avfoundation.xcframework'
   end
 
   s.subspec 'webview_flutter_wkwebview' do |ws|
