@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name                  = 'ekyc_core'
   s.version               = '2.10.400'
-  s.summary               = 'A UI toolkit for beautiful and fast apps.'
+  s.summary               = 'A toolkit for beautiful and fast apps.'
   s.description           = <<-DESC
 Flutter is Google's UI toolkit for building beautiful, fast apps for mobile, web, desktop, and embedded devices from a single codebase.
 This pod vends the iOS Flutter engine framework. It is compatible with application frameworks created with this version of the engine and tools.
