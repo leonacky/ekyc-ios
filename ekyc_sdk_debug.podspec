@@ -97,11 +97,6 @@ LICENSE
     us.vendored_frameworks   = 'url_launcher_ios.xcframework'
   end
 
-  s.subspec 'video_player_avfoundation' do |vs|
-    vs.platform              = :ios, '9.0'
-    vs.vendored_frameworks   = 'video_player_avfoundation.xcframework'
-  end
-
   s.subspec 'webview_flutter_wkwebview' do |ws|
     ws.platform              = :ios, '9.0'
     ws.vendored_frameworks   = 'webview_flutter_wkwebview.xcframework'
