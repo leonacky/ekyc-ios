@@ -52,11 +52,6 @@ LICENSE
     cs.vendored_frameworks   = 'camera.xcframework'
   end
 
-  s.subspec 'device_info_plus' do |ds|
-    ds.platform              = :ios, '9.0'
-    ds.vendored_frameworks   = 'device_info_plus.xcframework'
-  end
-
   s.subspec 'ekyc_flutter_sdk' do |es|
     es.platform              = :ios, '9.0'
     es.vendored_frameworks   = 'ekyc_flutter_sdk.xcframework'
