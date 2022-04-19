@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'ekyc_sdk'
-  s.version               = '1.0.2' # 2.10.4
+  s.version               = '1.0.4' # 2.10.4
   s.summary               = 'A UI toolkit for beautiful and fast apps.'
   s.description           = <<-DESC
 Flutter is Google's UI toolkit for building beautiful, fast apps for mobile, web, desktop, and embedded devices from a single codebase.
@@ -52,11 +52,6 @@ LICENSE
     cs.vendored_frameworks   = 'camera.xcframework'
   end
 
-  s.subspec 'device_info_plus' do |ds|
-    ds.platform              = :ios, '9.0'
-    ds.vendored_frameworks   = 'device_info_plus.xcframework'
-  end
-
   s.subspec 'ekyc_flutter_sdk' do |es|
     es.platform              = :ios, '9.0'
     es.vendored_frameworks   = 'ekyc_flutter_sdk.xcframework'
@@ -67,29 +62,14 @@ LICENSE
     fs.vendored_frameworks   = 'FlutterPluginRegistrant.xcframework'
   end
 
-  s.subspec 'fluttertoast' do |ts|
-    ts.platform              = :ios, '9.0'
-    ts.vendored_frameworks   = 'fluttertoast.xcframework'
-  end
-
   s.subspec 'path_provider_ios' do |ps|
     ps.platform              = :ios, '9.0'
     ps.vendored_frameworks   = 'path_provider_ios.xcframework'
   end
 
-  s.subspec 'shared_preferences_ios' do |ss|
-    ss.platform              = :ios, '9.0'
-    ss.vendored_frameworks   = 'shared_preferences_ios.xcframework'
-  end
-
   s.subspec 'tflite_flutter' do |ls|
     ls.platform              = :ios, '9.0'
     ls.vendored_frameworks   = 'tflite_flutter.xcframework'
-  end
-
-  s.subspec 'Toast' do |tts|
-    tts.platform              = :ios, '9.0'
-    tts.vendored_frameworks   = 'Toast.xcframework'
   end
 
   s.subspec 'url_launcher_ios' do |us|
