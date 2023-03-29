@@ -62,9 +62,9 @@ LICENSE
     fs.vendored_frameworks   = 'FlutterPluginRegistrant.xcframework'
   end
 
-  s.subspec 'path_provider_ios' do |ps|
+  s.subspec 'path_provider_foundation' do |ps|
     ps.platform              = :ios, '9.0'
-    ps.vendored_frameworks   = 'path_provider_ios.xcframework'
+    ps.vendored_frameworks   = 'path_provider_foundation.xcframework'
   end
 
   s.subspec 'tflite_flutter' do |ls|
